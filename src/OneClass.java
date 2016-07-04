@@ -2,6 +2,6 @@
 public class OneClass {
 
     public void method(){
-        System.out.println("hello");
+        System.out.println("hellooooNAHHH");
     }
 }
