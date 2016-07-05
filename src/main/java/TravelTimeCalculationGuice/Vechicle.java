@@ -1,3 +1,5 @@
+package TravelTimeCalculationGuice;
+
 /**
  * Created by Camille on 05.07.2016.
  */

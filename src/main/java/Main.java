@@ -1,11 +1,10 @@
-import java.util.Scanner;
+import TravelTimeCalculationGuice.TravelTimeCalApplication;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("enter distance");
-        Scanner scanner = new Scanner(System.in);
-        int distance = scanner.nextInt();
-        TravelTimeCalc travelTimeCalc = new TravelTimeCalc(new Car());
+
+       TravelTimeCalApplication application = new TravelTimeCalApplication();
+        application.run();
     }
 }
