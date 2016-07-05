@@ -5,6 +5,7 @@ public class TravelTimeCalc {
 
     Vechicle vechicle;
 
+    @Inject
     public TravelTimeCalc(Car car) {
         this.vechicle = car;
     }
