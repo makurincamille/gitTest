@@ -1,0 +1,19 @@
+
+
+//two.join(); - stops the execution of main thread until thread two is not finished its work
+public class ThreadDemoApp {
+    public void run() {
+        Thread one = new Thread(new ThreadOne());
+        Thread two = new Thread(new ThreadTwo());
+
+        two.start();
+        try {
+            two.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        one.start();
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

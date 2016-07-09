@@ -1,10 +1,13 @@
+import MultiThreading.ThreadDemoApp;
+import MultiThreading.ThreadOne;
+import MultiThreading.ThreadTwo;
 import TravelTimeCalculationGuice.TravelTimeCalApplication;
 
 public class Main {
 
     public static void main(String[] args) {
 
-       TravelTimeCalApplication application = new TravelTimeCalApplication();
-        application.run();
+        ThreadDemoApp app = new ThreadDemoApp();
+        app.run();
     }
 }
