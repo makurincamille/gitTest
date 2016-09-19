@@ -1,4 +1,4 @@
-package TravelTimeCalculationGuice;
+package travelTimeCalculationGuice;
 
 /**
  * Created by Camille on 05.07.2016.

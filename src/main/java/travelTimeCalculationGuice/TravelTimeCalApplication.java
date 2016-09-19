@@ -1,4 +1,4 @@
-package TravelTimeCalculationGuice;
+package travelTimeCalculationGuice;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
