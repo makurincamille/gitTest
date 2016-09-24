@@ -1,13 +1,10 @@
-import MultiThreading.ThreadDemoApp;
-import MultiThreading.ThreadOne;
-import MultiThreading.ThreadTwo;
-import TravelTimeCalculationGuice.TravelTimeCalApplication;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        ThreadDemoApp app = new ThreadDemoApp();
-        app.run();
+        List<String> stringsList = Arrays.asList("string1","string2","string3","string4");
+        System.out.println(stringsList.stream().count());
     }
 }

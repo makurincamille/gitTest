@@ -1,7 +1,15 @@
 package designPatterns.creational.factory;
 
-/**
- * Created by Camille on 19.09.2016.
- */
 public class TransportFactory {
+    public Transport getTransport(String transportType) {
+        switch (transportType) {
+            case "CAR":
+                return new Car();
+            case "SHIP":
+                return new Ship();
+            case "PLANE":
+                return new Plane();
+        }
+        return null;
+    }
 }

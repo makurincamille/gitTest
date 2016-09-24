@@ -1,7 +1,9 @@
 package designPatterns.creational.factory;
 
-/**
- * Created by Camille on 19.09.2016.
- */
-public class Car {
+public class Car implements Transport{
+
+    @Override
+    public void move() {
+        System.out.println("This is car moving!");
+    }
 }
