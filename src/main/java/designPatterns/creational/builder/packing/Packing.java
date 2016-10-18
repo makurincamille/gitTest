@@ -1,5 +1,5 @@
 package designPatterns.creational.builder.packing;
 
 public interface Packing {
-    String pack();
+    public String pack();
 }

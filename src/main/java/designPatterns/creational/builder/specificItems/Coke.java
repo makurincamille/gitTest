@@ -1,7 +1,15 @@
 package designPatterns.creational.builder.specificItems;
 
-/**
- * Created by Camille on 25.09.2016.
- */
-public class Coke {
+import designPatterns.creational.builder.abstracktItems.ColdDrink;
+
+public class Coke extends ColdDrink{
+    @Override
+    public String name() {
+        return "Coke";
+    }
+
+    @Override
+    public Float price() {
+        return 1.50f;
+    }
 }

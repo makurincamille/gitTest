@@ -1,7 +1,15 @@
 package designPatterns.creational.singleton;
 
-/**
- * Created by Camille on 25.09.2016.
- */
 public class SingletonObject {
+    private static  SingletonObject instanceOfSingletonObject = new SingletonObject();
+
+    private SingletonObject(){};
+
+    public static SingletonObject returnSigleton() {
+        return instanceOfSingletonObject;
+    }
+
+    public void getMessage(){
+        System.out.println("instance message");
+    }
 }

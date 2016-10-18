@@ -1,7 +1,15 @@
 package designPatterns.creational.builder.specificItems;
 
-/**
- * Created by Camille on 25.09.2016.
- */
-public class ChickenBurger {
+import designPatterns.creational.builder.abstracktItems.Burger;
+
+public class ChickenBurger extends Burger{
+    @Override
+    public String name() {
+        return "Chicken Burger";
+    }
+
+    @Override
+    public Float price() {
+        return 2.50f;
+    }
 }

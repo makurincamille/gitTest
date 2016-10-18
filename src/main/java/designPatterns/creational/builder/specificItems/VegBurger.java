@@ -1,7 +1,15 @@
 package designPatterns.creational.builder.specificItems;
 
-/**
- * Created by Camille on 25.09.2016.
- */
-public class VegBurger {
+import designPatterns.creational.builder.abstracktItems.Burger;
+
+public class VegBurger extends Burger{
+    @Override
+    public String name() {
+        return "Veg Burger";
+    }
+
+    @Override
+    public Float price() {
+        return 2.10f;
+    }
 }

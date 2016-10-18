@@ -1,7 +1,6 @@
 package designPatterns.structural.adapter;
 
-/**
- * Created by Camille on 03.10.2016.
- */
 public interface AdvancedMediaPlayer {
+    public void playVLC(String fileName);
+    public void playMP4(String fileName);
 }

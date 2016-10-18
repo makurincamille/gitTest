@@ -1,7 +1,8 @@
 package designPatterns.creational.builder.packing;
 
-/**
- * Created by Camille on 25.09.2016.
- */
-public class Bottle {
+public class Bottle implements Packing {
+    @Override
+    public String pack() {
+        return "Bottle";
+    }
 }

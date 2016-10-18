@@ -1,7 +1,13 @@
 package designPatterns.structural.adapter;
 
-/**
- * Created by Camille on 03.10.2016.
- */
-public class VlcPlayer {
+public class VlcPlayer implements AdvancedMediaPlayer {
+    @Override
+    public void playVLC(String fileName) {
+        System.out.println("Playing Vlc file: "+ fileName);
+    }
+
+    @Override
+    public void playMP4(String fileName) {
+        //do nothing
+    }
 }
